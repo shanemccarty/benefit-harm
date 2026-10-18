@@ -30,7 +30,7 @@ power_desc <- c(
   "Social Power"   = "Based on family status: generational residence vs. recent residence.")
 
 theme <- bs_theme(version = 5, bootswatch = "flatly",
-                  base_font = font_google("Open Sans"),
+                  base_font = font_google("Open Sans", local = FALSE),
                   primary = "#1b3a8a",
                   "link-color" = "#4f6364", "link-hover-color" = "#3f5152")
 
